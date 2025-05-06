@@ -1,0 +1,23 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@marvinh-test/raw-jsx-runtime@^0.0.9": "0.0.9",
+    "jsr:@std/html@^1.0.3": "1.0.3"
+  },
+  "jsr": {
+    "@marvinh-test/raw-jsx-runtime@0.0.9": {
+      "integrity": "486d78e9495a332502b22e8b345f221e60c0d46ce46899a945ba19317ecabace",
+      "dependencies": [
+        "jsr:@std/html"
+      ]
+    },
+    "@std/html@1.0.3": {
+      "integrity": "7a0ac35e050431fb49d44e61c8b8aac1ebd55937e0dc9ec6409aa4bab39a7988"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@marvinh-test/raw-jsx-runtime@^0.0.9"
+    ]
+  }
+}

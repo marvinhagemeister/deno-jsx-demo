@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "jsr:@marvinh-test/raw-jsx-runtime@^0.0.9"
+  }
+}
